@@ -4,6 +4,10 @@ body {
 
   font-family: $primary-font;
   letter-spacing: 0.03em;
+
+  &.modal-open {
+    overflow: hidden;
+  }
 }
 
 h1,
