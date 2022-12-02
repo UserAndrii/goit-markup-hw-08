@@ -1,0 +1,103 @@
+.footer {
+  background-color: getColor("bgc-hero-footer");
+  padding: 60px 0;
+}
+
+.footer__conteiner {
+  text-align: center;
+}
+
+.footer__logo {
+  display: block;
+  color: getColor("bgc-text-white");
+  margin-bottom: 28px;
+}
+
+.footer__contacts {
+  font-style: normal;
+}
+
+// ADDRESS
+
+.address {
+  @extend %list;
+}
+
+.address__item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.address__link {
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+
+  color: rgba(255, 255, 255, 0.6);
+  transition: color $transition-timing $timing-function;
+
+  &:hover,
+  &:focus {
+    color: getColor("hover-accent");
+  }
+
+  &--white-text {
+    color: getColor("bgc-text-white");
+    transition: color $transition-timing $timing-function;
+  }
+}
+
+.call-title {
+  color: getColor("bgc-text-white");
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: center;
+
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+// SUBSCRIPTION
+
+.subscription__input {
+  width: 100%;
+  height: 50px;
+  padding-left: 16px;
+  margin-bottom: 20px;
+
+  background-color: getColor("bgc-hero-footer");
+  color: getColor("bgc-text-white");
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  transition: border $transition-timing $timing-function;
+
+  &::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  &:focus {
+    border: 1px solid getColor("hover-accent");
+    outline: transparent;
+  }
+}
+
+.subscription__button {
+  @extend %button;
+  @include centeredFlex();
+  padding: 10px 28px;
+  margin: 0 auto;
+  &:hover,
+  &:focus {
+    background-color: getColor("hover-second");
+    color: getColor("bgc-text-white");
+  }
+}
+
+.subscription__icon {
+  margin-left: 10px;
+}

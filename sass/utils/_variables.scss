@@ -1,0 +1,24 @@
+$primary-font: "Roboto", sans-serif;
+$logo-font: "Raleway", sans-serif;
+
+$card-set-gap: 30px;
+$transition-timing: 250ms;
+$timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+// MAP_GET_COLORS
+
+$colors: (
+  "title": #212121,
+  "text": #757575,
+  "hover-accent": #2196f3,
+  "hover-second": #188ce8,
+  "bgc-text-white": #ffffff,
+  "bgc-second": #f5f4fa,
+  "bgc-hero-footer": #2f303a,
+  "icons": #afb1b8,
+  "black": #000000,
+);
+
+@function getColor($key) {
+  @return map-get($colors, $key);
+}
