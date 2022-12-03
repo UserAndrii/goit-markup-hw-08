@@ -77,6 +77,13 @@
 
   font-size: 12px;
   line-height: 1.16;
+
+  // DESKTOP STYLE
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+
   color: getColor("text");
   cursor: pointer;
 

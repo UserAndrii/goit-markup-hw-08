@@ -36,6 +36,7 @@
   height: 100vh;
   padding: 48px 40px;
   background-color: getColor("bgc-text-white");
+  overflow-y: scroll;
 
   transform: translateY(100%);
   transition: $transition-timing $timing-function;
@@ -56,7 +57,8 @@
 .mobile-menu {
   list-style: none;
   padding: 0;
-  margin: 0 0 306px 0;
+  margin: 0;
+  margin-bottom: 306px;
 }
 
 .mobile-menu__item:not(:last-child) {
