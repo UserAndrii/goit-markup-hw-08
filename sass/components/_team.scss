@@ -45,6 +45,11 @@
   text-align: center;
   padding-top: $card-set-gap;
   padding-bottom: 24px;
+
+  // DESKTOP STYLE
+  @media screen and (min-width: 1200px) {
+    padding-bottom: $card-set-gap;
+  }
 }
 
 .employee__name {

@@ -575,6 +575,11 @@ img {
   padding-top: 30px;
   padding-bottom: 24px;
 }
+@media screen and (min-width: 1200px) {
+  .employee {
+    padding-bottom: 30px;
+  }
+}
 
 .employee__name {
   font-weight: 500;
