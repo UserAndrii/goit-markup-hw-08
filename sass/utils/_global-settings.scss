@@ -20,7 +20,7 @@ p {
 
 img {
   display: block;
-  min-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -35,7 +35,7 @@ img {
   }
 
   &__title {
-    font-size: 36px;
+    font-size: 28px;
     line-height: 1.17;
     text-align: center;
 
@@ -44,6 +44,7 @@ img {
     // Desktop
 
     @media screen and (min-width: 1200px) {
+      font-size: 36px;
       margin-bottom: 50px;
     }
   }
@@ -67,6 +68,11 @@ img {
   // Desktop
   @media screen and (min-width: 1200px) {
     width: 1200px;
+
+    &--padding {
+      padding-left: 90px;
+      padding-right: 90px;
+    }
   }
 }
 

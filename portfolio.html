@@ -31,7 +31,7 @@
             aria-controls="mobile-menu"
             aria-label="Перемикач мобільного меню"
           >
-            <svg class="width" ="40" height="40">
+            <svg width="40" height="40">
               <use href="./images/icons.svg#icon-menu-open"></use>
             </svg>
           </button>
@@ -48,7 +48,7 @@
               >
             </li>
             <li class="navigation__item">
-              <a class="navigation__link" href="#">Контакти</a>
+              <a class="navigation__link" href="./contact.html">Контакти</a>
             </li>
           </ul>
         </nav>
@@ -109,14 +109,38 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <!-- PROJECT -->
+                <!-- PROJECT 1 -->
                 <div class="project">
-                  <img
-                    src="./images/project1.jpg"
-                    alt="Веб-сайт Технокряк"
-                    width="370"
-                    height="294px"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/desktop-w370px/comp-project.jpg    1x,
+                        ./images/desktop-w370px/comp-project@2x.jpg 2x,
+                        ./images/desktop-w370px/comp-project@3x.jpg 3x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/tablet-w354px/tab-project.jpg    1x,
+                        ./images/tablet-w354px/tab-project@2x.jpg 2x,
+                        ./images/tablet-w354px/tab-project@3x.jpg 3x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/mobile-w450px/mob-project.jpg    1x,
+                        ./images/mobile-w450px/mob-project@2x.jpg 2x,
+                        ./images/mobile-w450px/mob-project@3x.jpg 3x
+                      "
+                    />
+                    <img
+                      src="./images/mobile-w450px/mob-project.jpg"
+                      alt="Веб-сайт Технокряк"
+                    />
+                  </picture>
                   <div class="project__overlay">
                     <p class="project__description">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -140,13 +164,38 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <!-- PROJECT -->
+                <!-- PROJECT 2 -->
                 <div class="project">
-                  <img
-                    src="./images/project2.jpg"
-                    alt="Постер New Orlean vs Golden Star"
-                    width="370"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/desktop-w370px/comp-project-2.jpg    1x,
+                        ./images/desktop-w370px/comp-project-2@2x.jpg 2x,
+                        ./images/desktop-w370px/comp-project-2@3x.jpg 3x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/tablet-w354px/tab-project-2.jpg    1x,
+                        ./images/tablet-w354px/tab-project-2@2x.jpg 2x,
+                        ./images/tablet-w354px/tab-project-2@3x.jpg 3x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/mobile-w450px/mob-project-2.jpg    1x,
+                        ./images/mobile-w450px/mob-project-2@2x.jpg 2x,
+                        ./images/mobile-w450px/mob-project-2@3x.jpg 3x
+                      "
+                    />
+                    <img
+                      src="./images/mobile-w450px/mob-project-2.jpg"
+                      alt="Постер New Orlean vs Golden Star"
+                    />
+                  </picture>
                   <div class="project__overlay">
                     <p class="project__description">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -172,13 +221,38 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <!-- PROJECT -->
+                <!-- PROJECT 3 -->
                 <div class="project">
-                  <img
-                    src="./images/project3.jpg"
-                    alt="Додаток ресторану Seafood"
-                    width="370"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/desktop-w370px/comp-project-3.jpg    1x,
+                        ./images/desktop-w370px/comp-project-3@2x.jpg 2x,
+                        ./images/desktop-w370px/comp-project-3@3x.jpg 3x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/tablet-w354px/tab-project-3.jpg    1x,
+                        ./images/tablet-w354px/tab-project-3@2x.jpg 2x,
+                        ./images/tablet-w354px/tab-project-3@3x.jpg 3x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/mobile-w450px/mob-project-3.jpg    1x,
+                        ./images/mobile-w450px/mob-project-3@2x.jpg 2x,
+                        ./images/mobile-w450px/mob-project-3@3x.jpg 3x
+                      "
+                    />
+                    <img
+                      src="./images/mobile-w450px/mob-project-3.jpg"
+                      alt="Додаток ресторану Seafood"
+                    />
+                  </picture>
                   <div class="project__overlay">
                     <p class="project__description">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -202,13 +276,38 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <!-- PROJECT -->
+                <!-- PROJECT 4 -->
                 <div class="project">
-                  <img
-                    src="./images/project4.jpg"
-                    alt="Маркетинговий проект Prime"
-                    width="370"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/desktop-w370px/comp-project-4.jpg    1x,
+                        ./images/desktop-w370px/comp-project-4@2x.jpg 2x,
+                        ./images/desktop-w370px/comp-project-4@3x.jpg 3x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/tablet-w354px/tab-project-4.jpg    1x,
+                        ./images/tablet-w354px/tab-project-4@2x.jpg 2x,
+                        ./images/tablet-w354px/tab-project-4@3x.jpg 3x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/mobile-w450px/mob-project-4.jpg    1x,
+                        ./images/mobile-w450px/mob-project-4@2x.jpg 2x,
+                        ./images/mobile-w450px/mob-project-4@3x.jpg 3x
+                      "
+                    />
+                    <img
+                      src="./images/mobile-w450px/mob-project-4.jpg"
+                      alt="Маркетинговий проект Prime"
+                    />
+                  </picture>
                   <div class="project__overlay">
                     <p class="project__description">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -232,13 +331,38 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <!-- PROJECT -->
+                <!-- PROJECT 5 -->
                 <div class="project">
-                  <img
-                    src="./images/project5.jpg"
-                    alt="Проєкт додатку Boxes"
-                    width="370"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/desktop-w370px/comp-project-5.jpg    1x,
+                        ./images/desktop-w370px/comp-project-5@2x.jpg 2x,
+                        ./images/desktop-w370px/comp-project-5@3x.jpg 3x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/tablet-w354px/tab-project-5.jpg    1x,
+                        ./images/tablet-w354px/tab-project-5@2x.jpg 2x,
+                        ./images/tablet-w354px/tab-project-5@3x.jpg 3x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/mobile-w450px/mob-project-5.jpg    1x,
+                        ./images/mobile-w450px/mob-project-5@2x.jpg 2x,
+                        ./images/mobile-w450px/mob-project-5@3x.jpg 3x
+                      "
+                    />
+                    <img
+                      src="./images/mobile-w450px/mob-project-5.jpg"
+                      alt="Проєкт додатку Boxes"
+                    />
+                  </picture>
                   <div class="project__overlay">
                     <p class="project__description">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -262,13 +386,38 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <!-- PROJECT -->
+                <!-- PROJECT 6 -->
                 <div class="project">
-                  <img
-                    src="./images/project6.jpg"
-                    alt="Веб-сайт Inspiration has no Borders"
-                    width="370"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/desktop-w370px/comp-project-6.jpg    1x,
+                        ./images/desktop-w370px/comp-project-6@2x.jpg 2x,
+                        ./images/desktop-w370px/comp-project-6@3x.jpg 3x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/tablet-w354px/tab-project-6.jpg    1x,
+                        ./images/tablet-w354px/tab-project-6@2x.jpg 2x,
+                        ./images/tablet-w354px/tab-project-6@3x.jpg 3x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/mobile-w450px/mob-project-6.jpg    1x,
+                        ./images/mobile-w450px/mob-project-6@2x.jpg 2x,
+                        ./images/mobile-w450px/mob-project-6@3x.jpg 3x
+                      "
+                    />
+                    <img
+                      src="./images/mobile-w450px/mob-project-6.jpg"
+                      alt="Веб-сайт Inspiration has no Borders"
+                    />
+                  </picture>
                   <div class="project__overlay">
                     <p class="project__description">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -294,13 +443,38 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <!-- PROJECT -->
+                <!-- PROJECT 7 -->
                 <div class="project">
-                  <img
-                    src="./images/project7.jpg"
-                    alt="Дизайнерське видання Limited Edition"
-                    width="370"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/desktop-w370px/comp-project-7.jpg    1x,
+                        ./images/desktop-w370px/comp-project-7@2x.jpg 2x,
+                        ./images/desktop-w370px/comp-project-7@3x.jpg 3x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/tablet-w354px/tab-project-7.jpg    1x,
+                        ./images/tablet-w354px/tab-project-7@2x.jpg 2x,
+                        ./images/tablet-w354px/tab-project-7@3x.jpg 3x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/mobile-w450px/mob-project-7.jpg    1x,
+                        ./images/mobile-w450px/mob-project-7@2x.jpg 2x,
+                        ./images/mobile-w450px/mob-project-7@3x.jpg 3x
+                      "
+                    />
+                    <img
+                      src="./images/mobile-w450px/mob-project-7.jpg"
+                      alt="Дизайнерське видання Limited Edition"
+                    />
+                  </picture>
                   <div class="project__overlay">
                     <p class="project__description">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -326,13 +500,38 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <!-- PROJECT -->
+                <!-- PROJECT 8 -->
                 <div class="project">
-                  <img
-                    src="./images/project8.jpg"
-                    alt="Маркетинговий проект LAB"
-                    width="370"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/desktop-w370px/comp-project-8.jpg    1x,
+                        ./images/desktop-w370px/comp-project-8@2x.jpg 2x,
+                        ./images/desktop-w370px/comp-project-8@3x.jpg 3x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/tablet-w354px/tab-project-8.jpg    1x,
+                        ./images/tablet-w354px/tab-project-8@2x.jpg 2x,
+                        ./images/tablet-w354px/tab-project-8@3x.jpg 3x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/mobile-w450px/mob-project-8.jpg    1x,
+                        ./images/mobile-w450px/mob-project-8@2x.jpg 2x,
+                        ./images/mobile-w450px/mob-project-8@3x.jpg 3x
+                      "
+                    />
+                    <img
+                      src="./images/mobile-w450px/mob-project-8.jpg"
+                      alt="Маркетинговий проект LAB"
+                    />
+                  </picture>
                   <div class="project__overlay">
                     <p class="project__description">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -356,13 +555,38 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <!-- PROJECT -->
+                <!-- PROJECT 9 -->
                 <div class="project">
-                  <img
-                    src="./images/project9.jpg"
-                    alt="Додаток Growing Business"
-                    width="370"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/desktop-w370px/comp-project-9.jpg    1x,
+                        ./images/desktop-w370px/comp-project-9@2x.jpg 2x,
+                        ./images/desktop-w370px/comp-project-9@3x.jpg 3x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/tablet-w354px/tab-project-9.jpg    1x,
+                        ./images/tablet-w354px/tab-project-9@2x.jpg 2x,
+                        ./images/tablet-w354px/tab-project-9@3x.jpg 3x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/mobile-w450px/mob-project-9.jpg    1x,
+                        ./images/mobile-w450px/mob-project-9@2x.jpg 2x,
+                        ./images/mobile-w450px/mob-project-9@3x.jpg 3x
+                      "
+                    />
+                    <img
+                      src="./images/mobile-w450px/mob-project-9.jpg"
+                      alt="Додаток Growing Business"
+                    />
+                  </picture>
                   <div class="project__overlay">
                     <p class="project__description">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -510,7 +734,7 @@
           >
         </li>
         <li class="mobile-menu__item">
-          <a href="#" class="mobile-menu__link">Контакти</a>
+          <a href="./contact.html" class="mobile-menu__link">Контакти</a>
         </li>
       </ul>
       <ul class="mobile-contact">
