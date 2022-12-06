@@ -27,6 +27,8 @@
 
 .menu {
   position: fixed;
+  display: flex;
+  flex-direction: column;
   top: 0;
   left: 0;
   width: 100vw;
@@ -53,7 +55,7 @@
 
 .mobile-menu {
   @extend %list;
-  margin-bottom: 306px;
+  margin-bottom: auto;
 }
 
 .mobile-menu__item:not(:last-child) {
